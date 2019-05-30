@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2404628928980602497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6466500848633261247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38dbb46582c6ff04a96e85970ab341ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 2
+  damage: 1
+  cubePoints: 300
+  minForce: 3
+  maxForce: 9
+  minTorque: 1
+  maxTorque: 2
+  minGravity: -0.15
+  maxGravity: 0.15
+  SmokeDestructionFX: {fileID: 4251310895027442923, guid: 81001b6be83acd045abe7bdbbd54c31b,
+    type: 3}
+  Small1: {fileID: 4636630308011827878, guid: bd428b5e591c3da4aae25f885020f0b9, type: 3}
+  Small2: {fileID: 7507541778269235392, guid: 2b9dd74598f7e884882782bf8409710c, type: 3}
+  Small3: {fileID: 7037563135843958129, guid: 63b072ff017b23e4ba3500f9e22cbb77, type: 3}
+  ColorArray:
+  - {fileID: 21300000, guid: b6511d6ba08e081498dcf6aae0b90b46, type: 3}
+  - {fileID: 21300000, guid: aac5809858420134a826fbc2b027da6b, type: 3}
+  - {fileID: 21300000, guid: dcc9e35abc7e2364e9c90dbe7f4dc1ac, type: 3}
+--- !u!1001 &2584025508387885722
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8818590956682886693, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_Name
+      value: Tri-Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886715, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886714, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c96f177bc0299e14498aba02f4c34409,
+        type: 3}
+    - target: {fileID: 8818590956682886714, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886714, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818590956682886714, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5926855081146127400, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 5926855081146127400, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 5926855081146127400, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5926855081146127400, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1468485571427525466, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1468485571427525466, guid: 0b39f714999fd1143b9a57f5ebe73373,
+        type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2790614877485830908, guid: 0b39f714999fd1143b9a57f5ebe73373, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 0b39f714999fd1143b9a57f5ebe73373, type: 3}
+--- !u!1 &6466500848633261247 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8818590956682886693, guid: 0b39f714999fd1143b9a57f5ebe73373,
+    type: 3}
+  m_PrefabInstance: {fileID: 2584025508387885722}
+  m_PrefabAsset: {fileID: 0}
